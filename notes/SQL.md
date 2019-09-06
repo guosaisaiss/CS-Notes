@@ -111,6 +111,7 @@ FROM mytable2;
 将一个表的内容插入到一个新表
 
 ```sql
+# AS 通常作为别名的标志，这里作为连接语句的操作符
 CREATE TABLE newtable AS
 SELECT * FROM mytable;
 ```
